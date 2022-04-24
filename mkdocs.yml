@@ -1,0 +1,44 @@
+site_name: 开源指南
+
+repo_name: tisonkun/open-source-guides
+repo_url: https://github.com/tisonkun/open-source-guides
+edit_uri: https://github.com/tisonkun/open-source-guides/edit/main/docs
+
+copyright: Copyright &copy; 2022 tison
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+  font:
+    text: Noto Serif SC, PingFang SC
+    code: Source Code Variable
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/tisonkun
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/tison1096
+
+plugins:
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - 主页: index.md
+  - 开源第一步:
+    - 如何参与开源协同: how-to-participate.md
+  - 开源与企业:
+    - 企业实践开源的动机: motivation-of-enterprise-open-source.md
+  - 开源的衡量:
+    - Apache 成熟度模型: apache-maturity-model.md
+  - 开源案例库:
+    - Apache 开源社群的经验: the-apache-community.md
