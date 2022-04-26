@@ -1,4 +1,7 @@
-# Apache 成熟度模型
+---
+title: Apache 成熟度模型
+description: Apache 如何衡量一个项目的成熟度？
+---
 
 [Apache 成熟度模型](https://community.apache.org/apache-way/apache-project-maturity-model.html)旨在阐述 Apache 项目运营时的关注目标，以及一个可以衡量各个关注目标的定性模型。实践当中，这个模型广泛用于指导进入 Apache 孵化器的开源软件项目建立起高质量的开源软件以及围绕软件的活跃社群。
 
@@ -109,4 +112,4 @@ Apache 是中立的。从 Apache Group 的第一天起，它就不曾由相同�
 
 避免公司和组织的显式影响是 Apache 的选择。每个 Apache 孵化器项目在毕业之前，都要回答 Homogeneous Developers 的问题，也就是说，项目的开发者是否都是相同背景的。这同样是对集体智慧的信任和避免过低的巴士系数带来的风险。
 
-曾经在 Cloudera 支持下运作的 [Apache Ambari](https://attic.apache.org/projects/ambari.html) 项目，在商业公司战略变化之后，就失去了活力并最终退休。相似的例子不胜枚举，Apache 相信 Community Over Code 的原则，前提是这个 Community 有足够的多样性，从而能够支撑项目在仍然有人需要的时候保持响应和演进。
+曾经在 Hortonworks 支持下运作的 [Apache Ambari](https://attic.apache.org/projects/ambari.html) 项目，在商业公司被并购之后，就失去了活力并最终退休。相似的例子不胜枚举，Apache 相信 Community Over Code 的原则，前提是这个 Community 有足够的多样性，从而能够支撑项目在仍然有人需要的时候保持响应和演进。
