@@ -1,4 +1,5 @@
 site_name: 开源指南
+site_url: https://tisonkun.org/open-source-guides
 
 repo_name: tisonkun/open-source-guides
 repo_url: https://github.com/tisonkun/open-source-guides
@@ -13,7 +14,7 @@ theme:
     - navigation.instant
     - navigation.tabs
   font:
-    text: Noto Serif SC, PingFang SC
+    text: Roboto
     code: Source Code Variable
   icon:
     repo: fontawesome/brands/github
@@ -26,6 +27,7 @@ extra:
       link: https://twitter.com/tison1096
 
 plugins:
+  - social
 
 markdown_extensions:
   - pymdownx.highlight
