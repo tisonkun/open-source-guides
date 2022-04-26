@@ -8,6 +8,7 @@ copyright: Copyright &copy; 2022 tison
 
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.instant
     - navigation.tabs
