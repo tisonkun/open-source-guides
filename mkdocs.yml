@@ -40,5 +40,6 @@ nav:
     - 企业实践开源的动机: motivation-of-enterprise-open-source.md
   - 开源的衡量:
     - Apache 成熟度模型: apache-maturity-model.md
+    - Orbit 引力模型: orbit-gravity-model.md
   - 开源案例库:
     - Apache 开源社群的经验: the-apache-community.md
