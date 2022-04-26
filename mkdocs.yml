@@ -42,5 +42,6 @@ nav:
   - 开源的衡量:
     - Apache 成熟度模型: apache-maturity-model.md
     - Orbit 引力模型: orbit-gravity-model.md
+    - ClickHouse 社群的指标: clickhouse-community-metrics.md
   - 开源案例库:
     - Apache 开源社群的经验: the-apache-community.md
