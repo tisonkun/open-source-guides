@@ -14,7 +14,7 @@ theme:
     - navigation.instant
     - navigation.tabs
   font:
-    text: Noto Sans SC
+    text: Roboto
     code: Source Code Variable
   icon:
     repo: fontawesome/brands/github
