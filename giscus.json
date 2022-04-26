@@ -1,6 +1,7 @@
 {
     "origins": [
-      "https://tisonkun.github.io"
+      "https://tisonkun.github.io",
+      "https://tisonkun.org/"
     ],
     "originsRegex": [
       "http://localhost:[0-9]+"
