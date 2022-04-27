@@ -39,7 +39,7 @@ nav:
   - 主页: index.md
   - 开源第一步:
     - 如何参与开源协同: how-to-participate.md
-  - 开源与企业:
+  - 开源与商业:
     - 企业实践开源的动机: motivation-of-enterprise-open-source.md
   - 开源的衡量:
     - Apache 成熟度模型: apache-maturity-model.md
