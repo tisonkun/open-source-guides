@@ -8,6 +8,17 @@ edit_uri: https://github.com/tisonkun/open-source-guides/edit/main/docs
 copyright: Copyright &copy; 2022 tison
 
 theme:
+  palette:
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)" 
+      scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
   name: material
   custom_dir: overrides
   features:
@@ -27,6 +38,7 @@ extra:
       link: https://twitter.com/tison1096
 
 plugins:
+  - search
   - social
 
 markdown_extensions:
