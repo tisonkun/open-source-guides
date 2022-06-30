@@ -52,7 +52,9 @@ nav:
   - 开源第一步:
     - 如何参与开源协同: how-to-participate.md
   - 开源与商业:
-    - 企业实践开源的动机: motivation-of-enterprise-open-source.md
+    - 开源标准以保护业务: open-source-standards.md
+    - 基于开源的商业模式: open-source-business-model.md
+    - 免费增值的商业模式: freemium-business-model.md
   - 开源的衡量:
     - Apache 成熟度模型: apache-maturity-model.md
     - Orbit 引力模型: orbit-gravity-model.md
