@@ -1,4 +1,4 @@
-# ClickHouse 社群的指标
+# ClickHouse 指标模型
 
 内容撰写中……
 
