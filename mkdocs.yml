@@ -55,6 +55,7 @@ nav:
     - 开源标准以保护业务: open-source-standards.md
     - 基于开源的商业模式: open-source-business-model.md
     - 免费增值的商业模式: freemium-business-model.md
+    - 应对搭便车的云厂商: cloud-provider-free-rider.md
   - 开源的衡量:
     - Apache 成熟度模型: apache-maturity-model.md
     - Orbit 引力模型: orbit-gravity-model.md
