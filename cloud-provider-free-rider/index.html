@@ -6,11 +6,9 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Apache 如何衡量一个项目的成熟度？">
       
       
-      
-        <link rel="canonical" href="https://tisonkun.org/open-source-guides/apache-maturity-model/">
+        <link rel="canonical" href="https://tisonkun.org/open-source-guides/cloud-provider-free-rider/">
       
       
         
@@ -20,7 +18,7 @@
     
     
       
-        <title>Apache 成熟度模型 - 开源指南</title>
+        <title>应对搭便车的云厂商 - 开源指南</title>
       
     
     
@@ -53,11 +51,11 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="Apache 成熟度模型 - 开源指南" >
+        <meta  property="og:title"  content="应对搭便车的云厂商 - 开源指南" >
       
-        <meta  property="og:description"  content="Apache 如何衡量一个项目的成熟度？" >
+        <meta  property="og:description"  content="None" >
       
-        <meta  property="og:image"  content="https://tisonkun.org/open-source-guides/assets/images/social/apache-maturity-model.png" >
+        <meta  property="og:image"  content="https://tisonkun.org/open-source-guides/assets/images/social/cloud-provider-free-rider.png" >
       
         <meta  property="og:image:type"  content="image/png" >
       
@@ -65,15 +63,15 @@
       
         <meta  property="og:image:height"  content="630" >
       
-        <meta  property="og:url"  content="https://tisonkun.org/open-source-guides/apache-maturity-model/" >
+        <meta  property="og:url"  content="https://tisonkun.org/open-source-guides/cloud-provider-free-rider/" >
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="Apache 成熟度模型 - 开源指南" >
+        <meta  name="twitter:title"  content="应对搭便车的云厂商 - 开源指南" >
       
-        <meta  name="twitter:description"  content="Apache 如何衡量一个项目的成熟度？" >
+        <meta  name="twitter:description"  content="None" >
       
-        <meta  name="twitter:image"  content="https://tisonkun.org/open-source-guides/assets/images/social/apache-maturity-model.png" >
+        <meta  name="twitter:image"  content="https://tisonkun.org/open-source-guides/assets/images/social/cloud-provider-free-rider.png" >
       
     
     
@@ -117,11 +115,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#_1" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -151,7 +144,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Apache 成熟度模型
+              应对搭便车的云厂商
             
           </span>
         </div>
@@ -284,6 +277,8 @@
       
         
 
+  
+
 
 
 
@@ -292,7 +287,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../open-source-standards/" class="md-tabs__link">
+        <a href="../open-source-standards/" class="md-tabs__link md-tabs__link--active">
           
   
   开源与商业
@@ -305,8 +300,6 @@
       
         
 
-  
-
 
 
 
@@ -315,7 +308,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="./" class="md-tabs__link md-tabs__link--active">
+        <a href="../apache-maturity-model/" class="md-tabs__link">
           
   
   开源的衡量
@@ -483,15 +476,17 @@
 
   
   
+    
+  
   
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
         
         
           <label class="md-nav__link" for="__nav_3">
@@ -572,9 +567,16 @@
                 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../cloud-provider-free-rider/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -582,6 +584,7 @@
   </span>
 
       </a>
+      
     </li>
   
 
@@ -602,17 +605,15 @@
 
   
   
-    
-  
   
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" checked>
+          <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
         
         
           <label class="md-nav__link" for="__nav_4">
@@ -636,26 +637,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Apache 成熟度模型
-  </span>
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../apache-maturity-model/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -663,87 +647,6 @@
   </span>
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      代码
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      协议及版权
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      发布
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      质量
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      社群
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      共识
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      独立性
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -874,77 +777,6 @@
   
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      代码
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      协议及版权
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      发布
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      质量
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_5" class="md-nav__link">
-    <span class="md-ellipsis">
-      社群
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_6" class="md-nav__link">
-    <span class="md-ellipsis">
-      共识
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#_7" class="md-nav__link">
-    <span class="md-ellipsis">
-      独立性
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -956,102 +788,38 @@
               
   
                 
-  <a href="https://github.com/tisonkun/open-source-guides/edit/main/docs/apache-maturity-model.md" title="Edit this page" class="md-content__button md-icon">
+  <a href="https://github.com/tisonkun/open-source-guides/edit/main/docs/cloud-provider-free-rider.md" title="Edit this page" class="md-content__button md-icon">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
   </a>
 
 
 
-  <h1>Apache 成熟度模型</h1>
+  <h1>应对搭便车的云厂商</h1>
 
-<p><a href="https://community.apache.org/apache-way/apache-project-maturity-model.html">Apache 成熟度模型</a>旨在阐述 Apache 项目运营时的关注目标，以及一个可以衡量各个关注目标的定性模型。实践当中，这个模型广泛用于指导进入 Apache 孵化器的开源软件项目建立起高质量的开源软件以及围绕软件的活跃社群。</p>
-<p>当然，由于项目类型、背景、参与者和用户各不相同，这些指标都不是教条的，更不是每一条都必须要做到。Apache 成熟度模型当中也没有“必须”达到的字样，或者定量的描述，而是定性地描述一个相对多数 Apache 成员认同的衡量模型。</p>
-<h2 id="_1">代码</h2>
+<p>为什么 MongoDB Inc. 要说云厂商伤害了 MongoDB 的社群，Elastic、CockroachLabs 和 Airbyte 也紧随其后呢？</p>
 <ul>
-<li>CD10 项目生产开源软件，并免费向公众分发。</li>
-<li>CD20 任何人都可以轻易发现和访问项目代码。</li>
-<li>CD30 任何人都可以使用公开的标准工具可复现地从源码中构建软件。</li>
-<li>CD40 项目代码的完整历史都被源码控制系统管理起来，任何人都可以重新构建已发布的版本。</li>
-<li>CD50 源码控制系统记录的信息可以明确每行代码的出处，及其对应的提交者的可信签字认证。对于第三方贡献的代码，提交信息也能清楚的标明代码来源。</li>
+<li><a href="https://www.mongodb.com/licensing/server-side-public-license/faq">Why are we changing the license for MongoDB?</a></li>
+<li><a href="https://www.elastic.co/blog/licensing-change">Upcoming licensing changes to Elasticsearch and Kibana</a></li>
+<li><a href="https://www.cockroachlabs.com/blog/oss-relicensing-cockroachdb/">Why We're Relicensing CockroachDB</a></li>
+<li><a href="https://airbyte.com/blog/a-new-license-to-future-proof-the-commoditization-of-data-integration">A New License to Future Proof the Commoditization of Data Integration</a></li>
 </ul>
-<p>虽然 <a href="https://www.apache.org/theapacheway/index.html">The Apache Way</a> 强调了 Community Over Code 的原则，但是这不意味着只要社群不要代码，而是强调代码不会自动演进，只有活跃的社群才能保证代码持续迭代。</p>
-<p>开源社群不是别的社群，而是围绕开源软件形成的社群。高水平的开源社群依赖高质量的开源软件支撑，Apache 成熟度模型首先描述了支撑社群的软件代码应该有哪些特质。除了源码控制系统管理和代码来源审计以外，需要关注的是最基础的要求是软件必须是开源软件，并且免费向公众分发。</p>
-<p>虽然有些声音指出“开源不等于免费”，但是无论是 Apache 软件基金会还是自由软件基金会，都强调了源代码必须免费可得。“开源不等于免费”合理的解释是开源软件距离生产系统的解决方案还有距离，为了满足生产系统的需求和承担生产系统的责任，产生的定制化需求和服务需求是存在商机的。</p>
-<p><a href="https://www.apache.org/foundation/bylaws.html#6.3">ASF 的章程</a>当中明确定义了 Apache 项目生产开源软件，并免费向公众分发。ASF 甚至只做了一个专门的<a href="https://www.apache.org/free/">页面</a>讨论关于开源、自由和免费的话题。</p>
-<h2 id="_2">协议及版权</h2>
-<ul>
-<li>LC10 发布代码以 Apache License v2.0 许可。</li>
-<li>LC20 项目代码必须依赖的库，不会产生比 Apache License 更多的限制。</li>
-<li>LC30 项目代码必须依赖的库都是开源的。</li>
-<li>LC40 提交者都签署了<a href="http://apache.org/licenses/icla.pdf">个人贡献者协议</a>，该协议定义了提交者可以提交什么代码以及如何识别非己所有的代码。</li>
-<li>LC50 项目清晰地定义和记录了一切产物的版权所有权。</li>
-</ul>
-<p>Apache 孵化器在孵化新项目时，一个关键的问题就是处理好冠以 Apache 名号的软件的协议和版权问题。</p>
-<p>毫无疑问，Apache 项目应该以 Apache License 许可。值得注意的是 LC20 的描述，这是关于 GPL 和 Apache License 不兼容的一个侧面。一方面，依赖以 GPL 许可的库会导致软件本身无法仅以 Apache License 许可。另一方面，GPL 依赖库会带来比 Apache License 更多的限制，例如要求下游采用特定的许可条款发布。ASF 同样做了一个专门的<a href="https://www.apache.org/licenses/GPL-compatibility.html">页面</a>讨论与 GPL 的兼容性问题，也有专门的<a href="https://apache.org/legal/resolved.html">页面</a>将依赖分类并指导项目如何处理各个类型的依赖。</p>
-<p>另一个关注点是 ASF 要求提交者都签署个人贡献者协议。虽然 Apache 的个人贡献者协议当中也有个人贡献者让渡 relicense 协议的条款，但是其目的在于 Apache License 演进时能够适时更新项目的开源协议。这不同于商业公司的 CLA 经常是为将来改变为更加封闭的商业协议埋伏笔。</p>
-<h2 id="_3">发布</h2>
-<ul>
-<li>RE10 发布包含了以标准、开放可读的归档格式分发的源码，从而保证分发的源码长期都是可读的。</li>
-<li>RE20 发布经过项目管理委员会（PMC）批准，从而保证所有发布都是 Apache 基金会所为。</li>
-<li>RE30 发布内容包含发布人的签名和内容摘要，从而保证所有人都可以校验下载到的归档文件。</li>
-<li>RE40 项目可以随源码分发二进制文件，但是这些二进制文件不是 Apache 发布版，只是为了方便用户使用而分发，不带任何保证。</li>
-<li>RE50 项目记录了完整的发布流程，新用户可以独立地重复构建与发布版相同且完整的内容。</li>
-</ul>
-<p>Apache 孵化器在孵化新项目时，另一个关键问题就是项目必须能够制作一系列的 Apache 发布版。</p>
-<p>如前所述，ASF 章程中明确定义了 Apache 项目生产开源软件，并免费向公众分发。所有 Apache 发布版某种意义上都代表了 Apache 这个品牌的价值。进入 Apache 孵化器的项目各有各的动机，但是一个明显的实惠就是能够冠名 Apache 来进行市场营销。ASF 制定了<a href="https://www.apache.org/legal/release-policy.html">详细的发布政策</a>讨论什么是 Apache 发布版，以及一个 Apache 项目可能会制作哪些与发布相关的产物。</p>
-<p>对于具体的一个 Apache 项目来说，完整记录发布流程，并且确保新用户可以独立地重复构建与发布版相同且完整的内容是很重要的。这背后是 Apache 的文化对开源的认识。开源从来都不只是开放源代码，生产开源软件不只是将源代码丢给用户，而是要保证可运行的软件的整个交付过程。每个 Apache 孵化器项目在毕业成为顶级项目之前，不仅至少要制作若干个 Apache 发布版，还必须要证明这个过程可以由不同人分别相对独立地完成。</p>
-<ul>
-<li><a href="https://cwiki.apache.org/confluence/display/CURATOR/For+Curator+Committers#ForCuratorCommitters-ReleasingCurator">Apache Curator 的发布流程文档</a></li>
-<li><a href="https://cwiki.apache.org/confluence/display/FLINK/Releasing">Apache Flink 的系列发布流程文档</a></li>
-</ul>
-<p>TiDB 项目也试图记录自己的<a href="https://pingcap.github.io/tidb-dev-guide/project-management/release-train-model.html">发布流程</a>，但是由于受到某些公司内部决策和工具依赖的限制，并非任何人都可以承担发布协调员的职责。此外，TiDB 发布版的获取也是不稳定的，直到最近的版本才依托 GitHub 完成源代码的发布，而二进制文件的发布仍然托管在一个临时的文件服务器上，其地址并不像 Apache 的发布地址 <a href="https://downloads.apache.org/">downloads.apache.org</a> 一样可靠。发布的内容也没有电子签名，发布本身也没有一个公开测试和投票决议的过程。</p>
-<h2 id="_4">质量</h2>
-<ul>
-<li>QU10 项目对自身代码质量保持开放且诚实的态度。不同模块有不同质量和成熟度水平是自然的，只要能够清楚地沟通就可以接受。</li>
-<li>QU20 项目高度重视生产安全的软件。</li>
-<li>QU30 项目提供记录良好、安全且私密的渠道以报告并回应安全问题。</li>
-<li>QU40 项目重视后向兼容性，对任何不兼容改动都予以记录，并提供工具和文档帮助用户迁移到新功能、新特性。</li>
-<li>QU50 项目全力及时回应记录在案的缺陷报告。</li>
-</ul>
-<p>这些内容都是典型的软件工程的要求。实际上，开源协同很大程度上是一种先进的软件工程实践。Apache 项目对后向兼容性的重视闻名在外，Apache ZooKeeper 等项目都保持了良好的后向兼容性，在满足语义化版本的定义限制下，你可以使用最新的客户端连接上十年前发布的服务端。对于安全问题的反馈，只要看到 Apache Log4j2 在发现安全漏洞以后第一时间修复和发布的责任心，应该就能有所理解。</p>
-<p>软件不可能没有缺陷，最低的要求是对软件的缺陷和问题保持开放且诚实的态度，最高的要求是全力及时回应缺陷报告。这两点似乎看起来无甚差异，但是实际做到“全力及时”的项目，又有多少呢？</p>
-<h2 id="_5">社群</h2>
-<ul>
-<li>CO10 项目有一个广为人知的官网，包含所有根据成熟度模型运营项目所需的信息。</li>
-<li>CO20 社群欢迎任何人的参与贡献，只要这是真诚、相互尊重且为项目创造价值的。</li>
-<li>CO30 参与贡献是多样的，包括代码、文档、建设性的缺陷报告和讨论、市场营销以及任何为项目创造价值的活动。</li>
-<li>CO40 社群致力于精英治理，并赋予持续为项目创造价值的参与者更多权利和责任。</li>
-<li>CO50 项目文档记录了参与者如何赢得更多权利，包括提交权限和决策权限等等，并始终实践这些原则。</li>
-<li>CO60 社群基于参与决策的成员的共识运行。Apache 项目不欢迎任何形式的独裁者。</li>
-<li>CO70 项目全力及时回应用户问题。</li>
-</ul>
-<p>社群方面 Apache 成熟度模型强调最多的是创造价值，这与<a href="https://tisonkun.org/2022/02/10/value-creation/">《共同创造价值》</a>一文不谋而合。</p>
-<p><a href="https://github.com/opensource-f2f/episode">开源面对面</a>在<a href="https://twitter.com/osf2f/status/1491677885677334529">推特</a>上曾经提到“共同创造价值，而不是欢迎谁给谁贡献代码，不存在谁给谁的事情！”这正是一个对开源误区的阐述。</p>
-<p>很多时候，一个公司或组织想要运营一个开源项目社群，却总是落入了傲慢的陷阱。它们自以为是地认为自己是项目的主人，允许其他人来“贡献”已经是莫大的恩赐，“贡献”者应该感恩戴德，无偿付出，以至于公司或组织甚至以有多少人无偿“贡献”来直接衡量运营的结果。这种认识并不是“共同创造价值”的思路，而是寻找无偿工作的员工的思路，应该予以批判。</p>
-<h2 id="_6">共识</h2>
-<ul>
-<li>CS10 项目维护一个拥有决策权限的成员名单，这些成员组成了项目管理委员会（PMC）。</li>
-<li>CS20 决策必须在 PMC 成员当中达成共识，共识需要记录在项目主要的沟通渠道上。PMC 会在考虑社群成员的意见后做出最终决定。</li>
-<li>CS30 讨论得不到结论时，项目采用记录在案的投票规则达成共识。</li>
-<li>CS40 否决仅适用于代码提交，同时，提出否决的成员需要给出合理的技术解释。</li>
-<li>CS50 所有重要的讨论都应该异步地进行，并以文字形式记录在项目主要的沟通渠道上。关乎项目发展的线下讨论、当面沟通和私下交流事后都应该公开记录。</li>
-</ul>
-<p>如同社群 CO60 提到的，Apache 社群不欢迎任何形式的独裁者，这是 The Apache Way 当中 Community of Peers 原则的体现。Apache 一方面更加相信精英集体决策的力量，另一方面竭力避免独裁者模式导致<a href="https://en.wikipedia.org/wiki/Bus_factor">巴士系数</a>过低的情形。</p>
-<p><a href="https://book.douban.com/subject/25881855/">《大教堂与集市》</a>当中《开垦心智层》一章第 3.16 小节《项目组织结构与所有权》也讨论了社群应当如何组织的问题。同样关注这个话题的还有<a href="https://book.douban.com/subject/26976995/">《社群运营的艺术》</a>当中《治理》一章。这两本书都推荐阅读。</p>
-<p>此外，The Apache Way 还有 Open Communications 的原则，也就是上面提到的所有重要的讨论都应该记录在案，所有线下的讨论事后也都应该公开记录。</p>
-<p>关于这一点，<a href="https://producingoss.com/en/producingoss.html">《制造开源软件》</a>专门有一章<a href="https://producingoss.com/en/producingoss.html#avoid-private-discussions">《避免私下讨论》</a>做了详细分析。</p>
-<h2 id="_7">独立性</h2>
-<ul>
-<li>IN10 项目独立于任何公司或组织的影响。</li>
-<li>IN20 参与者仅代表他们自己，而不代表任何公司或组织。</li>
-</ul>
-<p>Apache 是中立的。从 Apache Group 的第一天起，它就不曾由相同背景的成员所组成。不出意外的是，独立性也是写进 The Apache Way 的原则之一。此外，Apache 有两个文档都专门提到了它的独立性。</p>
-<ul>
-<li><a href="https://community.apache.org/projectIndependence.html">Project independence</a></li>
-<li><a href="https://www.apache.org/foundation/how-it-works.html#hats">INDIVIDUALS COMPOSE THE ASF</a></li>
-</ul>
-<p>避免公司和组织的显式影响是 Apache 的选择。每个 Apache 孵化器项目在毕业之前，都要回答 Homogeneous Developers 的问题，也就是说，项目的开发者是否都是相同背景的。这同样是对集体智慧的信任和避免过低的巴士系数带来的风险。</p>
-<p>曾经在 Hortonworks 支持下运作的 <a href="https://attic.apache.org/projects/ambari.html">Apache Ambari</a> 项目，在商业公司被并购之后，就失去了活力并最终退休。相似的例子不胜枚举，Apache 相信 Community Over Code 的原则，前提是这个 Community 有足够的多样性，从而能够支撑项目在仍然有人需要的时候保持响应和演进。</p>
+<p>这四篇公告在<a href="../freemium-business-model/">《免费增值的商业模式》</a>当中也提到过。“云厂商的搭便车行为伤害了制造开源软件的公司”这样的说法，是开源的动机不同所导致的。</p>
+<p>这些制造开源软件商业公司一开始开发开源软件，是看到了开源软件在技术圈里的传播潜力。从他们的思考模式出发，其他公司想要复刻同样的商业价值，必然会因为跟不上核心团队的研发能力而被市场淘汰。由于分布式系统的部署和运维足够复杂，只要开源软件能够维持 MySQL 时代一家话事的话语权，拿下缺乏维护这些分布式系统的客户是有可能的。换句话说，商业公司的基本诉求是盈利，当 MongoDB Inc、Elastic、CockroachLabs 和 Airbyte 选择开源全栈技术的时候，他们考虑的商业模式是免费增值的市场策略 + 软件复杂度带来的维护成本引发的付费意愿。</p>
+<p>然而，云厂商拥有强大的云上软件部署优化能力。云厂商与上面这些商业公司做商业竞争，并不需要研发出具有代差的高水平软件。只要完成云上打包部署的工作，调配厂商内部的网络、存储和机器资源，调动遍布全球的销售团队，在企业服务市场的组合拳足以在直接使用上述开源软件的情况下赚取高出原厂的利润。这一下子，制造开源软件的公司就不干了。</p>
+<p>Kubernetes 的作者没有指责阿里云销售 Kubernetes 发行版损害了他们的利益，诉讼专家 Oracle 没有怎么打击其他 JDK 的提供商，Linux、Spring 和 Netty 等等众多开源项目的维护者也不在乎其他厂商如何打包销售解决方案。因为这些厂商的经营跟他们的获利途径没有冲突。然而，MongoDB Inc. 流派的公司，就是打着规模化销售软件服务来盈利的算盘，云厂商的行为是实打实的利益冲突。</p>
+<p>另一方面，虽然也有部分开源软件作者为自己的付出得不到回报愤愤不平，但是大量高质量的开源软件开发的目的，是为了解决作者自己的问题或者出于 Because I can 这样的理由。这些作者有着不同于开公司销售标准化软件以外的诉求，乐于见到云厂商使用它们的技术构建自己的产品方案。反观制造开源软件的公司是实打实的支付了员工工资开发这个软件的，为了回本和盈利就指望把软件和服务卖出去赚钱，除此以外也没啥别的想法。这样的模式下云厂商赚走的钱，即使还给自己留下了一些盈利空间，也是这些做着有朝一日成为 Microsoft 体量的公司梦想的商业公司所不能接受的。</p>
+<p>前文提到，“开源软件的源代码免费可得，并且不限制任何人将其用于任何用途”是开源定义的一部分。这就意味着云厂商对开源软件的打包销售在开源协议许可的范围内。制造开源软件商业公司愤而斥责云厂商“白嫖”、“吸血”，是因为他们把自己制造的开源软件当成了专有软件，不希望其他人能够与他们进行商业竞争。</p>
+<p>这一点，从 Elastic 即使能够打赢和 AWS 的商标官司，在开源协议保护知识产权的范围内迫使 AWS 将其 ElasticSearch 服务更名为 Amazon OpenSearch Service 以外，还是要以禁止提供同类服务和破解密钥的 Elastic License 来重新许可自己的产品可以看出来。</p>
+<p>从 ELv2 的措辞当中我们可以看出来，这些厂商的主要诉求就是禁止商业竞争。ELv2 并未限制不提供同质服务的情况下的商业使用，对于 Elastic 来说，如果用户具备相应的技能，或者用户公司已经支付给其工程师用于运维 ElasticSearch 的内部使用，那么也就不是自己的目标客户。这也是 Airbyte 和 Starrocks 的选择。CockroachLabs 使用 Business Source License + Cockroach Community License 达成了一样的效果。</p>
+<p>那么，在组织员工投入精力参与开发的开源软件，有可能被云厂商或其他竞争对手直接使用的情况下，商业公司应该如何理解和投入在开源方向上的资源呢？</p>
+<p>我们可以从社群和公司的关系来分类讨论。</p>
+<p>如果是公司依附型的关系，也就是上面讨论的 MongoDB Inc. 这样的公司，雇佣员工开发软件，那么只要云厂商或者其他强势的对手参与商业竞争，以 ELv2 或者 BSL 重新许可基本是定局。或许在自己研发的软件尚不突出，竞争对手发现没有直接复制的价值的时候，才能维持开源许可的外表。GPL 和 AGPL 可以提示下游软件作者期望整个社群在一个共同的上下文当中工作，但是无法抵抗一行不改只是增强部署实施和销售团队碾压的来自云厂商的商业竞争。</p>
+<p>如果是社群依附型的关系，也就是 RedHat 和 Linux 以及 Kubernetes 这样的关系，开源社群可以独立生存发展，那么商业公司应该不会有其他厂商“白嫖”或“吸血”的体验，因为自己也是社群强大生产力的获利者。这类公司需要理解与自己经营关系紧密的开源社群的运作方式，通过制作发行版或者一揽子解决方案来形成自己的商业价值。形成后者能力的代码是专有代码，因此也就不存在被“搭便车”的问题。例如 Tetrate.io 制作 Istio 发行版和应用网络治理框架，虽然使用了开源的 Istio 和 Apache SkyWalking 等软件，但是也有大量内部代码。阿里和腾讯的 Kubernetes 发行版也是类似的逻辑。</p>
+<p>如果是相互依附型的关系，也就是项目并非公司所有，但是社群又需要公司投入支持的情况，这种情况产生的项目往往一开始并不是为了作为商品销售而产生的。例如 Apache DolphinScheduler 目前是白鲸开源公司的技术图谱上的重要基础软件，但是它的启动阶段是在易观公司内部完成的。同样的软件还包括 Apache Pulsar 和 Apache Doris 等等。对于这些例子当中的公司，由于没有那种“这是我的软件”的执念和软件确实几乎 100% 是公司出钱投人开发的背景，在经营上可以参考社群依附型的做法，同时加强原厂品牌，积极营建社群伙伴关系，提高其他竞争对手攻占定位的难度。</p>
+<p>公司在技术上选择开源路线的时候，应该遵循开源本身就是跨越组织边界的集体智慧的性质，寻找已经存在的方案。例如白鲸开源公司为了完善自己 DataOps 的流水线，没有选择从头开发一个数据管道，而是联合原 Waterdrop 社群孵化 Apache SeaTunnel 项目。例如最近参与 Apache Ambari 项目复活的成员，有部分人的背景是希望将 Ambari 用在公司大数据套件产品当中。从一开始就加入到开源协同的环境里，也就不会出现抱着盈利的目的付出巨大精力以后没有回报的挫折和矛盾了。</p>
+<p>当然，虽然把公司的全部营收赌在一个全开源的技术栈能大卖上不现实，但这并不意味着企业就不能从头开发一个开源软件。上面提到的这些可以拿来就用的软件，本身是在商业公司内部作为基础支持服务开发，由于公司并不需要依靠他们盈利，进而出于开源协同对质量的促进、生态的建设和声誉的积累等优势，将代码开源。这其实也是《大教堂与集市》当中论证为何应该开源的一部分，在这些情况下，开源并不会损害公司的利益。</p>
+<p>最后，生产开源软件的参与者们到底还是一个一个具体的工程师。不是每个人都必须要创建公司，不是每家公司都必须要做得像微软那样大。Vue.js 的作者尤雨溪曾经透露他通过 Patreon 接受捐赠和其他途径获得的收入，在 2016 年就已经超过在 Meteor 和 Google 的收入。</p>
+<p>最初的 Apache 成员大多有正式工作，Linux 的核心成员乘着 VALinux 和红帽上市的东风分到了相当数额的股票，Netty 的两位核心作者，Trustin Lee 目前在 Databricks 工作，Norman Maurer 目前在 Apple 工作。开源的经历可以是你职场生涯的坚实基础，如果你有尤雨溪类似的投入到社群并积极维护资助关系、生产周边或接受广告的话，开源的声誉也可以为你提供额外的收入甚至成为主要收入。</p>
 
   
   
@@ -1120,7 +888,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer" >
       
         
-        <a href="../cloud-provider-free-rider/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 应对搭便车的云厂商" rel="prev">
+        <a href="../freemium-business-model/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 免费增值的商业模式" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -1129,20 +897,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              应对搭便车的云厂商
+              免费增值的商业模式
             </div>
           </div>
         </a>
       
       
         
-        <a href="../orbit-gravity-model/" class="md-footer__link md-footer__link--next" aria-label="Next: Orbit 引力模型" rel="next">
+        <a href="../apache-maturity-model/" class="md-footer__link md-footer__link--next" aria-label="Next: Apache 成熟度模型" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Orbit 引力模型
+              Apache 成熟度模型
             </div>
           </div>
           <div class="md-footer__button md-icon">
